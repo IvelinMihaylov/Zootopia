@@ -1,0 +1,174 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(57, 221, 25, 0.487);
+}
+.nav-list{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    background-color: rgba(47, 162, 47, 0.487);
+    text-align: center;
+
+}
+.nav-list li{
+    display: inline;
+    border-left: 1px solid rgb(16, 79, 16);
+    border-right: 1px solid rgb(16, 79, 16);
+
+}
+.nav-list a{
+    font-size: 2em;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1%;
+    margin: 0%;
+}
+.nav-list li :hover{
+    border-radius: 35%;
+    color: green;
+    background-color: rgb(26, 60, 26);
+}
+#header-log{
+    margin: 0%;
+    background-image: url(../recourse/header-panda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+#header-log img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 50%;
+}
+main {
+    background-color: rgb(169, 213, 169);
+    background-image: url(../recourse/lion-tracks.png);
+    background-repeat: space;
+    background-size:5%;
+    margin: 0%;
+    padding: 0%;
+}
+.presentation div {
+    display: inline-block;
+    width: 40%;
+    margin:3%;
+    padding: 1%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background-color: rgba(34, 63, 13, 0.761);
+
+}
+
+
+.animals {
+ display: inline-block;
+ /* background-color: white; */
+ background-color: rgba(34, 63, 13, 0.761);
+ color: whitesmoke;
+ text-align: center;
+ margin-left: 10%;
+
+}
+.animals img{
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+.animals div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: rgba(34, 63, 13, 0.761);
+ color: whitesmoke;
+    padding: 20px;
+    margin: 1% 10%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-32 {
+    float: left;
+    width: 32%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+#gallery img {
+    text-align: center;
+    height: 400px;
+    padding: 1%;
+}
+#prevGallery , #nextGallery{
+    background-color: greenyellow;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+footer {
+    text-align: center;
+}
