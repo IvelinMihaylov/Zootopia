@@ -68,7 +68,6 @@ main {
 
 .animals {
  display: inline-block;
- /* background-color: white; */
  background-color: rgba(34, 63, 13, 0.761);
  color: whitesmoke;
  text-align: center;
@@ -152,10 +151,17 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+#gallery {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(34, 63, 13, 0.761);
+}
 #gallery img {
+    background-color: black;
     text-align: center;
     height: 400px;
     padding: 1%;
+    border: 1px solid;
 }
 #prevGallery , #nextGallery{
     background-color: greenyellow;
@@ -163,6 +169,8 @@ input[type=submit]:hover {
     border: none;
     color: white;
     padding: 15px 32px;
+    margin-top: 10%;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
